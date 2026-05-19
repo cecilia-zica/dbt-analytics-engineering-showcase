@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: capacitacaocecilia
+    schema: raw_jaffle_shop
+    tables:
+      - name: customers
+      - name: orders

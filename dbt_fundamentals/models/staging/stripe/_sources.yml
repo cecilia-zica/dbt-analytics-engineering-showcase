@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: stripe
+    database: capacitacaocecilia
+    schema: raw_stripe
+    tables:
+      - name: payments
